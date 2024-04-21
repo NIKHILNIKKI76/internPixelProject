@@ -1,0 +1,171 @@
+
+
+.navbar-nav a.nav-link:hover {
+    color: black !important; 
+    border-bottom: 2px solid #651fff;
+}
+
+
+
+.btn-purple {
+    background-color:#651fff;
+    border-color:#3a089f;
+    color: white !important;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 1.075rem;
+}
+
+.btn-purple:hover {
+    background-color: #330196;
+    border-color: #330196;
+}
+
+
+.btn-white {
+    color: black !important;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 15px;
+    width: 90px;
+    padding: 0.100rem 0.75rem; 
+    font-size: 1.275rem;
+     
+}
+
+.btn-white:hover {
+    background-color: #f0f0f0; 
+}
+
+
+.techne{
+    font-weight: bolder;
+    color: #651fff !important;
+    font-size: 1.8975rem;
+  font-family: cursive;
+
+}
+
+
+ .createacc{
+    background: rgb(101, 31, 255) none repeat scroll 0% 0% / auto padding-box border-box;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 24px;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(101, 31, 255);
+    border-style: solid;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin-left: 20px;
+    text-decoration: none solid rgb(255, 255, 255);
+    background-color: rgb(101, 31, 255);
+    transition: color 0.25s ease 0s;
+    box-sizing: border-box;
+}
+ 
+.signinbutt{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    padding: 8px 24px;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px / auto padding-box border-box;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    text-decoration: none solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0);
+    transition: color 0.25s ease 0s;
+    box-sizing: border-box;
+}
+
+#techne {
+    color: #651fff;
+   
+
+}
+
+.para1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.btn {
+    width: 160px;
+    margin-right: 20px;
+    border-radius: 12px;
+    border: 2px solid black;
+    font-weight: 700;
+}
+
+.custom-btn {
+    background-color: #651fff;
+    border-color: #651fff;
+    color: white;
+}
+
+.custom-btn:hover {
+    background-color: #4000ff;
+    border-color: #4000ff;
+    color: white;
+}
+
+.image1 {
+    left: 20px;
+}
+
+.image3 {
+    top: 290px;
+    right: 0px;
+}
+
+#image3 {
+    border-radius: 30px;
+}
+
+
+@keyframes scaleText {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.navbar-brand.techne {
+    animation: scaleText 2s ease-in-out infinite;
+}
+
+
+
+@keyframes popOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.image2 img,
+.image1 img,
+.image3 img {
+    animation: popOut 2s ease-in-out infinite;
+}
